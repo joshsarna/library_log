@@ -12,7 +12,11 @@
     "webpack-dev-server": "^3.8.0"
   },
   "buildpacks": [
-    { "url": "heroku/nodejs" },
-    { "url": "heroku/ruby" }
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku/ruby"
+    }
   ]
 }
